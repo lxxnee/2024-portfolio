@@ -1,10 +1,10 @@
-import emoji from "react-easy-emoji";
+// import emoji from "react-easy-emoji";
 
 export const greeting = {
-  username: "seolin portfolio",
-  title: "안녕하세요 이서린 입니다",
-  subTitle: emoji("subtitle ❤"),
-  role: "Your role",
+  username: "Seo Lin",
+  title: "LEE SEO LIN Portfolio",
+  subTitle: "",
+  role: "성장해 가고 있는 개발자 입니다",
   resumeLink: "Your resume link... google drive or something else",
   // IMPORTANT
   // If you don't want to show this, change view to false. DO NOT DELETE!
@@ -14,25 +14,21 @@ export const greeting = {
 export const socialMediaLinks = {
   // IMPORTANT
   // if you don't have, change value to blank or false!! DO NOT DELETE!
-  github: "Your github link",
-  linkedin: "Your linkedin link",
-  email: "your email link",
-  facebook: "Your facebook link",
-  twitter: "Your twitter link",
+  github: "https://github.com/lxxnee",
   instagram: "Your instagram link",
   medium: "Your medium link",
-  stackoverflow: "Your stackoverflow link",
+  stackoverflow: "https://velog.io/@lxn_ee/posts",
 };
 
 export const skills = {
-  title: emoji("I Can Do ⚡"),
-  subTitle: "subtitle for skill",
+  title: "Skills ✔",
+  subTitle: "",
   describeSkills: [
-    emoji("✔ describe first"),
-    emoji("✔ describe second"),
-    emoji("✔ describe third"),
-    emoji("✔ describe forth"),
-    emoji("✔ describe fifth"),
+    // "✔ describe first",
+    // "✔ describe second",
+    // "✔ describe third",
+    // "✔ describe forth",
+    // "✔ describe fifth",
   ],
   // IMPORTANT
   // You need to find className for font-awesome icon
@@ -41,15 +37,18 @@ export const skills = {
     { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 80 },
     { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 70 },
     { fontAwesome: "fab fa-js", text: "JS", proficiency: 70 },
-    { fontAwesome: "fab fa-sass", text: "Sass", proficiency: 30 },
-    { fontAwesome: "fab fa-react", text: "React", proficiency: 60 },
-    { fontAwesome: "fab fa-aws", text: "AWS", proficiency: 20 },
+    { fontAwesome: "fab fa-php", text: "PHP", proficiency: 70 },
+    { fontAwesome: "fab fa-react", text: "React", proficiency: 30 },
+    { fontAwesome: "fab fa-vuejs", text: "Vue.JS", proficiency: 60 },
+    { fontAwesome: "fas fa-database", text: "Oracle SQL", proficiency: 60 },
+    { fontAwesome: "fab fa-laravel", text: "Laravel", proficiency: 70 },
+    { fontAwesome: "fas fa-database", text: "MariaDB", proficiency: 60 },
   ],
   view: true,
 };
 
 export const experience = {
-  title: "Work Experience",
+  title: "Education and certificate",
   lists: [
     {
       date: "2018.03~",
@@ -81,12 +80,12 @@ export const experience = {
 };
 
 export const openSourceProjects = {
-  title: emoji("Open Source Projects 💻"),
+  title: "Open Source Projects 💻",
   view: true,
 };
 
 export const projects = {
-  title: emoji("Projects 💻"),
+  title: "Projects 💻",
   subTitle: "subtitle for projects",
   lists: [
     {
@@ -104,7 +103,7 @@ export const projects = {
 };
 
 export const achievements = {
-  title: emoji("Achievements And Certifications 🏆"),
+  title: "Achievements And Certifications 🏆",
   subTitle: "subtitle for achievement",
   lists: [
     {
@@ -124,7 +123,7 @@ export const achievements = {
 };
 
 export const blogs = {
-  title: emoji("My Posts 📰"),
+  title: "My Posts 📰",
   subTitle: "subtitle for posts",
   lists: [
     {
@@ -142,8 +141,8 @@ export const blogs = {
 };
 
 export const contactInfo = {
-  title: "Contact To Me! 📞",
-  subTitle: "subtitle for contact",
-  introduce: emoji("your introduce❤"),
+  title: "Contact 📞",
+  subTitle: "",
+  introduce: "",
   view: true,
 };
