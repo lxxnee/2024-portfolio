@@ -6,6 +6,7 @@ export const greeting = {
   subTitle: "",
   role: "성장해 가고 있는 개발자 입니다",
   resumeLink: "Your resume link... google drive or something else",
+  profileImage: "/assets/profile.jpg",
   // IMPORTANT
   // If you don't want to show this, change view to false. DO NOT DELETE!
   view: true,
@@ -89,8 +90,13 @@ export const projects = {
   subTitle: "subtitle for projects",
   lists: [
     {
-      title: "Project1",
-      desc: "very very very very very very very very very very very very very very long very long description for clamp testing",
+      title: "반려묘 Todo List",
+      desc: "사용스킬: html, css, php, mariadb, figma",
+      url: "http://112.222.157.156:6411",
+    },
+    {
+      title: "Project2",
+      desc: "description",
       url: "#",
     },
     {
