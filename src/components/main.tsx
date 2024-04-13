@@ -19,7 +19,7 @@ function Main() {
 			{greeting.view && <Hello />}
 			{skills.view && <Skill />}
 			{experience.view && <Experience />}
-			{openSourceProjects.view && <OpenSource />}
+			{/* {openSourceProjects.view && <OpenSource />} */}
 			{projects.view && <Project />}
 			{/* {achievements.view && <Achievement />} */}
 			{blogs.view && <Blog />}

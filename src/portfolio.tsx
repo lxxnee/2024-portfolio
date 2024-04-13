@@ -17,7 +17,7 @@ export const socialMediaLinks = {
   // if you don't have, change value to blank or false!! DO NOT DELETE!
   github: "https://github.com/lxxnee",
   instagram: "Your instagram link",
-  medium: "Your medium link",
+  medium: "https://velog.io/@lxn_ee/posts",
   stackoverflow: "https://velog.io/@lxn_ee/posts",
 };
 
@@ -41,7 +41,7 @@ export const skills = {
     { fontAwesome: "fab fa-php", text: "PHP", proficiency: 70 },
     { fontAwesome: "fab fa-react", text: "React", proficiency: 30 },
     { fontAwesome: "fab fa-vuejs", text: "Vue.JS", proficiency: 60 },
-    { fontAwesome: "fas fa-database", text: "Oracle SQL", proficiency: 60 },
+    { fontAwesome: "fas fa-database", text: "Oracle", proficiency: 60 },
     { fontAwesome: "fab fa-laravel", text: "Laravel", proficiency: 70 },
     { fontAwesome: "fas fa-database", text: "MariaDB", proficiency: 60 },
   ],
@@ -136,7 +136,7 @@ export const achievements = {
 
 export const blogs = {
   title: "My Posts 📒",
-  subTitle: "공부 정리와 프로젝트 관련 정리글",
+  subTitle: "공부 정리및 프로젝트 관련 정리글",
   lists: [
     {
       title: "반려묘 TODO LIST",
