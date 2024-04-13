@@ -1,8 +1,8 @@
 // import emoji from "react-easy-emoji";
 
 export const greeting = {
-  username: "Seo Lin",
-  title: "LEE SEO LIN Portfolio",
+  username: "Lee Seo Lin",
+  title: "SEO LIN Portfolio",
   subTitle: "",
   role: "성장해 가고 있는 개발자 입니다",
   resumeLink: "Your resume link... google drive or something else",
@@ -49,7 +49,7 @@ export const skills = {
 };
 
 export const experience = {
-  title: "Education and certificate",
+  title: "학력 및 자격증",
   lists: [
     {
       date: "2018.03~",
@@ -87,12 +87,18 @@ export const openSourceProjects = {
 
 export const projects = {
   title: "Projects 💻",
-  subTitle: "subtitle for projects",
+  subTitle: "제가 참여했던 개인프로젝트, 팀원프로젝트 입니다",
   lists: [
     {
-      title: "반려묘 Todo List",
-      desc: "사용스킬: html, css, php, mariadb, figma",
-      url: "http://112.222.157.156:6411",
+      title: "PINK BORD",
+      desc: "html, css, 퓨어php를 사용해서 간단한 게시판 구현",
+
+      url: "#",
+    },
+    {
+      title: "반려묘 TODO LIST",
+      desc: "html , css , php , mariadb , figma 를 사용해서 반려고양이 정보를 입력받고 할일목록을 작성",
+      url: "http://112.222.157.156:6411/todolist_index.php",
     },
     {
       title: "Project2",
@@ -129,13 +135,13 @@ export const achievements = {
 };
 
 export const blogs = {
-  title: "My Posts 📰",
-  subTitle: "subtitle for posts",
+  title: "My Posts 📒",
+  subTitle: "공부 정리와 프로젝트 관련 정리글",
   lists: [
     {
-      title: "Your Post1",
-      desc: "Description",
-      url: "#",
+      title: "반려묘 TODO LIST",
+      desc: "프로젝트를 준비하면서 정리해둔 글 입니다",
+      url: "https://velog.io/@lxn_ee/%EB%B0%98%EB%A0%A4%EB%AC%98-TODO-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8",
     },
     {
       title: "Your post2",
@@ -148,7 +154,7 @@ export const blogs = {
 
 export const contactInfo = {
   title: "Contact 📞",
-  subTitle: "",
-  introduce: "",
+  subTitle: "연락 주세요 !",
+  introduce: "헤헤",
   view: true,
 };
