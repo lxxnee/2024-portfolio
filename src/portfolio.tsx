@@ -93,7 +93,7 @@ export const projects = {
       title: "PINK BORD",
       desc: "html, css, 퓨어php를 사용해서 간단한 게시판 구현",
 
-      url: "#",
+      url: "http://lsl9787.dothome.co.kr/index.php",
     },
     {
       title: "반려묘 TODO LIST",
@@ -155,6 +155,6 @@ export const blogs = {
 export const contactInfo = {
   title: "Contact 📞",
   subTitle: "연락 주세요 !",
-  introduce: "헤헤",
+  introduce: "헤헤콩",
   view: true,
 };
