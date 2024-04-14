@@ -154,7 +154,7 @@ export const blogs = {
 
 export const contactInfo = {
   title: "Contact 📞",
-  subTitle: "연락 주세요 !",
-  introduce: "헤헤콩",
+  subTitle: "Email : seolin9787@nate.com",
+  introduce: "",
   view: true,
 };
